@@ -1,0 +1,54 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* h1 {
+  text-align: center;
+  color: #333;
+} */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+/* .holiday-label {
+  color: #db1717;
+  font-weight: bold;
+  font-size: 0.7em;
+  text-align: center;
+  background-color: #d6e3e9;
+  border-radius: 2px;
+  line-height: 10px;
+  margin: 4px -8px -11px -8px;
+} */
+
+.holiday-label {
+  color: #db1717;
+  font-weight: bold;
+  font-size: 0.68em;
+  text-align: center;
+  background-color: #d6e3e9;
+  border-radius: 2px;
+  line-height: 10px;
+  /* margin: -3px -6px -18px -10px; */
+  max-height: 35px;
+  margin: auto;
+}
+.react-calendar {
+  min-width: 400px !important;
+    min-height: 400px !important;
+    margin: 10px !important;
+}
+.react-calendar__tile {
+  max-width: 100% !important;
+    padding: 14px 3.6667px !important;
+}
+.react-calendar__navigation {
+  height: 90px;
+}
